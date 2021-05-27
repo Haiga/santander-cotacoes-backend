@@ -26,3 +26,5 @@ https://www.openapis.org/
 ```
 docker run --name db_bootcamp -e POSTGRES_PASSWORD=123456 -d -p 5432:5432 postgres
 ```
+
+### Run the database scripts on db_migrations folder

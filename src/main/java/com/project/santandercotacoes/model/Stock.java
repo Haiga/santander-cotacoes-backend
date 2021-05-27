@@ -1,6 +1,7 @@
 package com.project.santandercotacoes.model;
 
 import javax.persistence.*;
+import java.time.LocalDate;
 
 @Entity
 @Table(name = "tb_stock")
@@ -21,7 +22,7 @@ public class Stock {
     private Double variation;
 
     @Column(name = "date")
-    private Double date;
+    private LocalDate date;
 
     public Long getId() {
         return id;
@@ -55,11 +56,11 @@ public class Stock {
         this.variation = variation;
     }
 
-    public Double getDate() {
+    public LocalDate getDate() {
         return date;
     }
 
-    public void setDate(Double date) {
+    public void setDate(LocalDate date) {
         this.date = date;
     }
 }
