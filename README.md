@@ -28,3 +28,5 @@ docker run --name db_bootcamp -e POSTGRES_PASSWORD=123456 -d -p 5432:5432 postgr
 ```
 
 ### Run the database scripts on db_migrations folder
+
+![Final application](read-img.png)
